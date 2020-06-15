@@ -11,5 +11,5 @@ b) This runtime is O(n*log(n)). The for loop would run O(n) and the while loop w
 c) This is O(n) because the steps are relative the the amount of given information.
 
 ## Exercise II
-
+We need to intake a range of floors in the building and then go through the range of floors looking for where the eggs will start not to break. We can tackle this by dividing the given range in half and then looking to see if the eggs are still breaking at the middle. From there look to see where eggs are breaking and throw away that half and continue the same process to find the perfect number where the eggs won't break. This solution would run in O(log(n)) time. 
 
